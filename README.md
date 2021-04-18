@@ -1,1 +1,1 @@
-# diplom-thesis-adoc-template
+# Diplomarbeitsvorlage für Asciidoc
