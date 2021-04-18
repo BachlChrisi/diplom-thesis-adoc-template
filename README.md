@@ -1,0 +1,1 @@
+# diplom-thesis-adoc-template
