@@ -1,1 +1,0 @@
-# Diplomarbeitsvorlage für Asciidoc

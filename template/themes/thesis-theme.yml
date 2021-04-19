@@ -1,0 +1,57 @@
+font:
+  catalog:
+    merge: false # (1)
+    Times-New-Roman:
+      normal: times-new-roman/times-new-roman.ttf
+      italic: times-new-roman/times-new-roman-italic.ttf
+      bold: times-new-roman/times-new-roman-bold.ttf
+      bold_italic: times-new-roman/times-new-roman-bold-italic.ttf
+    M+ 1mn:
+      normal: mplus1mn-regular-ascii-conums.ttf
+      bold: mplus1mn-regular-ascii-conums.ttf
+      italic: mplus1mn-regular-ascii-conums.ttf
+      bold_italic: mplus1mn-regular-ascii-conums.ttf
+  fallbacks:
+    - Times-Roman
+page:
+  layout: book
+  margin: [2.5cm, 2cm, 2cm, 3cm]
+  size: A4
+base:
+  font-color: #000
+  line-height-length: 20
+  font-family: Times-New-Roman
+  font-style: normal
+  line-height: $base-line-height-length / $base-font-size
+  font-size: 12
+heading:
+  font-color: #000
+  font-family: Times-New-Roman
+  font-size: 14
+link:
+  font-color: #009900
+footer:
+  height: 0.75in
+  line-height: 1
+  recto:
+    left: 
+      content: ''
+    right:
+      content: '{chapter-title} | *{page-number}*'
+  verso:
+    left: 
+      content: '{chapter-title} | *{page-number}*'
+    right:
+      content: ''
+caption:
+  align: center
+  font-color: #000
+  font-size: 12
+  font-family: Times-New-Roman
+conum:
+  font:
+    family: M+ 1mn
+    color: #000
+    size: $base_font_size
+  line:
+    height: 4 / 3

@@ -1,0 +1,39 @@
+:_title: Title of the thesis
+:lang: de
+include::thesis.adoc[tag=metadata]
+:notile:
+:noheader:
+
+include::thesis.adoc[tag=metadata]
+
+ifeval::["{lang}" == "en"]
+include::thesis.adoc[tag=statutory-declaration]
+endif::[]
+
+ifeval::["{lang}" == "de"]
+include::thesis.adoc[tag=statutory-declaration-de]
+endif::[]
+
+// Acknowledgments
+
+include::acknowledgments.adoc[leveloffset=+1]
+
+// TableOfContent
+
+toc::[]
+
+// Intro
+:chapter: 1
+:listing-number: 0
+:figure-number: 0
+:table-number: 0
+
+include::introduction.adoc[leveloffset=+1]
+
+// Bibliography
+
+include::bibliography.adoc[leveloffset=+1]
+
+// Appendix
+
+include::appendix.adoc[leveloffset=+1]

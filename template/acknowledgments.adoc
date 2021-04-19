@@ -1,0 +1,11 @@
+[[acknowledgments]]
+[discrete]
+= {acknowledgments}
+
+An dieser Stelle möchten wir uns aus tiefstem Herzen bei all denjenigen bedanken, die uns während dieser Diplomarbeit unterstützt und motiviert haben.
+
+Zuerst gebührt unser Dank Herrn Ing. Mag. Hans Christian Hammer, welcher unsere Diplomarbeit mit hilfreichen Anregungen und konstruktiver Kritik betreut und begutachtet hat.
+
+Wir bedanken uns auch bei unseren netten und hilfsbereiten Kollegen und Kolleginnen der 5B HIF, die uns stets mit ihrer Informationsbereitschaft und ihren interessanten Beiträgen und Antworten auf unsere Fragen weitergeholfen haben.
+
+Abschließend möchten wir uns noch bei unseren Eltern bedanken, die uns während unserer Zeit in der Höheren Technischen Bundeslehranstalt Leonding immer unterstützt und motiviert haben.

@@ -1,0 +1,9 @@
+[[bibliography]]
+[appendix]
+[bibliography]
+= {bibliography-caption}
+:bib-count: 0
+[bibliography]
+[horizontal]
+
+[[ionos-postgresql,[{counter:bib-count}] ]] [{bib-count}] :: 1&1 IONOS SE (2021): PostgreSQL, IONOS Digitalguide, [online] https://www.ionos.de/digitalguide/server/knowhow/postgresql/ [abgerufen am 02.03.2021].

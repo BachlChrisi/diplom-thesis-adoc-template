@@ -1,0 +1,28 @@
+# Diplomarbeitsvorlage für Asciidoc
+
+Es kann über des Attribut `:lang:` die Sprache eingestellt werden.
+
+**Auswählmöglichkeiten**
+
+. de
+. en
+
+**spine.adoc**: Ist das Start-File. Aus dieser Datei muss auch das Pdf erstellt werden. +
+
+**thesis.adoc**: Kuss nicht verändert werden. Beinhaltet abstrakte Einstellungen usw.
+
+**sign-declaration.adoc**: Hier muss die Namen der Mitglieder eingetragen werden.
+
+**acknowledgments.adoc**: Danksagung der Diplomarbeit.
+
+**introduction.adoc**: Ein Beispiel Kapitel wie Abbildung, Listing und Tabellen richtig verwendet werden.
+
+**bibliography.adoc**: Ein Beispiel eintrag in das Literaturverzeichnis.
+
+Im Ordner `themes` kann das Dokument angepasst werden. Weiter Theme Einstellungen siehe https://github.com/asciidoctor/asciidoctor-pdf/blob/main/docs/theming-guide.adoc.
+
+Im Ordner `scripts` befinden sich building, etc script für asciidoc.
+
+Im Ordner `fonts` befinden sich fonts die im theming file verwendet werden können.
+
+Im Ordner `images` befinden sich die Bilder, die im Dokument verwendet werden.

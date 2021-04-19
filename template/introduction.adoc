@@ -1,0 +1,45 @@
+[[introduction]]
+= Intro
+
+== Abbildung
+
+Beispiel für eine Abbildung (siehe <<key-figure>>).
+
+[[key-figure, Abbildung {chapter}.{counter:figure-number}]]
+.Abbildung {chapter}.{figure-number}: Beischreibung der Abbildung.
+image::3_tier_layer_architecture.png[width=400, align=center]
+
+== Listings
+
+Beispiel für ein Listing (siehe <<key-listing>>).
+
+[[key-listing, Listing {chapter}.{counter:listing-number}]]
+.Listing {chapter}.{listing-number}: Beschreibung des Code-Beispiels.
+[source, bash]
+[%autofit]
+----
+$ npm init
+----
+
+== Tables
+
+Beispiel für eine Tabelle (siehe <<key-tables>>).
+
+[[key-tables, Tabelle {chapter}.{counter:table-number}]]
+.Tabelle {chapter}.{table-number}: Beschreibung der Tabelle.
+|===
+
+|Projektname | Titel der Diplomarbeit
+
+|Teamleiter |
+
+|Teammitglieder |
+
+|Erstellt am | 12.7.2020
+
+|Zuletzt geändert am | 17.9.2020
+|===
+
+== Zitieren
+
+Hier ist ein Zitat was sich im Literaturverzeichnis befindet. <<ionos-postgresql>>

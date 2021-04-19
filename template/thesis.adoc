@@ -1,0 +1,59 @@
+// tag::metadata[]
+include::./locale/attributes.adoc[]
+
+:doctype: book
+
+:doctitle: {_title}
+
+:toc: macro
+:toclevels: 3
+
+:imagesdir: ./images
+
+:icons: font
+
+:rouge-style: github
+
+:experimental: true
+
+:source-highlighter: rouge
+
+:pdf-fontsdir: fonts
+
+:pdf-style: themes/thesis-theme.yml
+
+:front-cover-image: image:title-page.pdf[]
+
+:title-page:
+
+// end::metadata[]
+
+// tag::statutory-declaration-de[]
+
+[discrete]
+== Eidesstattliche Erklärung
+
+Hiermit erklären wir, dass wir die vorliegende Diplomarbeit selbstständig verfasst haben. Es wurden keine anderen als die in der Arbeit angegebenen Quellen und Hilfsmittel benutzt. Die wörtlichen oder sinngemäß übernommenen Zitate haben wir als solche kenntlich gemacht.
+
+include::sign-declaration.adoc[]
+
+<<<
+
+// end::statutory-declaration-de[]
+
+// tag::statutory-declaration[]
+
+[discrete]
+== Declaration of Academic Honesty
+
+Hereby, we declare that we have composed the presented paper independently on our own
+and without any other resources than the ones indicated. All thoughts taken directly or
+indirectly from external sources are properly denoted as such.
+This paper has neither been previously submitted to another authority nor has it
+been published yet.
+
+include::sign-declaration.adoc[]
+
+<<<
+
+// end::statutory-declaration[]
